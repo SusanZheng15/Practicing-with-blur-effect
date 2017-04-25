@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
+    
     let tapRecoginizer = UITapGestureRecognizer()
     var blurred = false
     
@@ -44,7 +45,7 @@ class ViewController: UIViewController {
         if blurred == false
         {
             tappedView()
-            var meh : Bool = true
+         //   let meh : Bool = true
 
         }
         else if blurred == true
